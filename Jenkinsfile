@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Test') {
       steps {
-        echo 'Yo verden'
+        sh 'pytest test/test_stuff.py'
       }
     }
   }
