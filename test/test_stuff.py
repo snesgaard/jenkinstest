@@ -12,3 +12,4 @@ def test_dot():
     assert stuff.dot(1, 1) == 1
     assert stuff.dot(5, 1) == 5
     assert stuff.dot(3, 5) == 15
+    assert stuff.dot(4, 5) == 20
